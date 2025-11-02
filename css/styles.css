@@ -616,6 +616,7 @@ button {
 .overlay {
   display: none;
 }
+
 @media screen and (min-width: 768px) {
   .portfolio-list {
     gap: 72px 24px;
@@ -634,7 +635,6 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
-
   .portfolio-item {
     box-shadow: none;
   }
@@ -829,7 +829,6 @@ button {
   fill: #ffffff;
   margin-left: 16px;
 }
-
 
 @media screen and (min-width: 768px) {
   .page-footer {
@@ -1074,7 +1073,6 @@ button {
   color: #8e8f99;
 }
 
-
 .form-field {
   position: relative;
 }
@@ -1139,7 +1137,7 @@ button {
 }
 
 .checkbox[type="checkbox"]:checked + .label-privacy > .checkbox-span {
-  background-color:  #404bbf;
+  background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
 }
@@ -1234,9 +1232,8 @@ button {
 
 @media screen and (min-width: 768px) {
   .modal {
-  padding: 72px 24px 24px 24px;
-  width: 408px;
-  min-height: 584px;
-
-}
+    padding: 72px 24px 24px 24px;
+    width: 408px;
+    min-height: 584px;
+  }
 }
